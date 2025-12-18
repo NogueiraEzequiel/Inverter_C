@@ -1,0 +1,23 @@
+# Archivos de compilación de Microchip XC8
+dist/
+build/
+debug/
+*.p1
+*.hex
+*.hxl
+*.p1
+*.sdb
+*.sym
+*.cmf
+*.elf
+*.o
+*.d
+*.obj
+
+# Archivos de sistema y logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Documentación generada (opcional, si quieres subirla bórralo de aquí)
+docs/

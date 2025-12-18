@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "XC8 - PIC18",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files/Microchip/xc8/v3.10/**"
+            ],
+            "defines": [
+                "_18F2520",
+                "__XC8"
+            ],
+            "compilerPath": "C:/Program Files/Microchip/xc8/v3.10/bin/xc8-cc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-x86",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/Program Files/Microchip/xc8/v3.10"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
