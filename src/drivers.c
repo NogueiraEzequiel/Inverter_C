@@ -128,11 +128,14 @@ void inicializar_variables(void) {
     ESTADO = 0; PREVIO = 0;
 
     // Limpieza matemática
-    AARGB0 = 0; BARGB0 = 0; // y resto...
+    AARGB0 = 0; BARGB0 = 0; 
     
-    // PID Init (Simulado o implementado si existe funcion PIDInit)
-    // [cite: 450-453]
-    // kp = 62; ki = 54; kd = 0;
+    // PID Init (Ahora activo según PDF)
+    // 
+    PidInitialize();
+    kp = 62;
+    ki = 54;
+    kd = 0;
 }
 
 // [cite: 591-599]
